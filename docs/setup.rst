@@ -45,6 +45,11 @@ current, simply by pulling from Git::
 
     pip install -e ./
 
+In Ubuntu 13.10 the required dependencies can be installed through::
+
+    sudo pip install numexpr Cython 
+    sudo apt-get install libhdf5-dev swig freeglut3-dev
+
 Starting up Analyzarr
 ***********************
 You want to run the **analyzarr_gui.py** file that lives int the
